@@ -1,5 +1,5 @@
 import { Box, Container, Typography } from "@mui/material";
-import React from "react";
+
 import avatar from "../assets/imgs/avatar.jpeg"; // Tell webpack this JS file uses this image
 
 import Grid from "@mui/material/Unstable_Grid2";
