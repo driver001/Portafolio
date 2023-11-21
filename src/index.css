@@ -2,3 +2,17 @@ h1, h2 ,h3 , h4 , h5 , h6 , p , span {
   font-family: 'JetBrains Mono', monospace !important;
 
 }
+html {
+  scroll-behavior: smooth;
+}
+/* css */
+html {
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+
+* {
+  scroll-margin-top: 64px;
+}
