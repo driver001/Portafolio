@@ -1,0 +1,111 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "JetBrains Mono", monospace !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* css */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  line-height: 0 !important;
+}
+
+* {
+  scroll-margin-top: 64px;
+}
+
+.scroller {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
+.icon-social:hover {
+  color: #ff5722 !important ;
+}
+nav button:hover {
+  color: #ff5722 !important ;
+}
+
+.banner .btn-primary:hover {
+  color: black;
+  background-color: rgb(255 87 34);
+}
+.banner .btn-secondary:hover {
+  color: black;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 801px) {
+  .card-data {
+    position: absolute;
+    width: 100%;
+    bottom: -100;
+    line-height: 1.5em;
+    left: 0;
+
+    will-change: bottom;
+    bottom: -20%;
+    transition: all 0.7s ease;
+    will-change: bottom;
+    opacity: 0;
+    right: 0;
+    background: #000000bf;
+    color: white;
+
+    padding: 1vh;
+  }
+}
+
+.skills img {
+  height: 60px;
+}
+@media only screen and (max-width: 800px) {
+  .MuiTimelineItem-root::before,
+  .MuiTimelineSeparator-root {
+    display: none !important;
+  }
+  .MuiTimelineItem-root {
+    margin-top: 2vh;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+
+.d-table {
+  display: table;
+}
+.d-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.card-project {
+  overflow: hidden;
+  box-shadow: 4px 4px 4px #0000005c;
+}
+.card-project .card-data {
+  bottom: 0%;
+  bottom: 0;
+  opacity: 1;
+  height: 100%;
+  transform: translateY(0%);
+}
+
+.card-project .icon {
+  height: 30px;
+  margin-right: 16px;
+  margin-top: 8px;
+}
